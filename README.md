@@ -4,7 +4,8 @@
 
 This application was adjusted from an existing Budget Tracker and was improved to allow for offline functionality.
 
-<img src= "https://github.com/Hannybiggs/online_offline_budget_tracker/blob/main/Assets/Screenshot%202021-07-09%20143941.png">
+<img src= "https://github.com/Hannybiggs/fitness-tracker/blob/main/Assets/screenshot1.png">
+<img src= "https://github.com/Hannybiggs/fitness-tracker/blob/main/Assets/screenshot2.png">
 
 ## How to Use:
 To use the user inputs their transaction name, transaction amount, and chooses to add the amount or subtract the amount from the running total. The amount is then updated in the chart down below and shows the trend over time. Additionally, it is added to the table directly under the transaction input.
