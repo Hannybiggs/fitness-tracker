@@ -1,26 +1,28 @@
-# Ftiness Tracker
+# Fitness Tracker
 
 [Check the live application](https://fitness-tracker98876.herokuapp.com)
 
-This application was adjusted from an existing Budget Tracker and was improved to allow for offline functionality.
+This application is a Fitness Tracker that will keep track of workouts. There is a dashboard that helps you visualize your progress. The dashboard is updateded based on your daily exercise input. You can then keep track of your stats over time.
 
 <img src= "https://github.com/Hannybiggs/fitness-tracker/blob/main/Assets/screenshot1.png">
 <img src= "https://github.com/Hannybiggs/fitness-tracker/blob/main/Assets/screenshot2.png">
 
 ## How to Use:
-To use the user inputs their transaction name, transaction amount, and chooses to add the amount or subtract the amount from the running total. The amount is then updated in the chart down below and shows the trend over time. Additionally, it is added to the table directly under the transaction input.
+To use the user inputs their exercise type, exercise name, weight, sets, reps, and duration. For each exercise session you can add multiple exercises. When you are finished entering your exercises, you can click "complete." The collective results of your enetered exercises will be tracked on the Dashboard.
 
-## Goals when undertaking:
-- Retain the existing functionality of the online budget tracker
-- Commit to Github frequently to keep track of progress
-- Add needed code to enable offline functionality 
+## Technology used:
+- Mongo DB - for database use
+- Heroku - for live deployment; links to Mongo DB
+- Mongodb Atlas
+- Javascript
 
 
-## Adjustments for offline functionality - enable access to cache
-- Add db.js - checks database, save records, fetches, etc. 
-- Add service-worker.js - contains files to cache, activates the needed service worker
-- Add manifest.webmanifest
+## Adjustments for full functionality
+- Add model index.js
+- Add model workout.js
+- Add routes apiRoutes.js
+- Add htmlRoutes.js
 
 
 ## Results
-The budget tracker functions as intended both online and offline. When accessing the budget tracker online it can be accessed via the live Heroku link (found at the top)
+The fitness tracker functions as intended both online and offline. When accessing the fitness tracker online it can be accessed via the live Heroku link (found at the top).
